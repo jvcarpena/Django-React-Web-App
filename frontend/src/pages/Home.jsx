@@ -43,6 +43,7 @@ function Home() {
       .then((result) => {
         if (result.status === 201) alert("Note created!");
         else alert("Failed to create note.");
+        setFormData({ title: "", content: "" });
         getNotes();
       })
       .catch((error) => alert(error));
