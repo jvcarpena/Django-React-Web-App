@@ -31,33 +31,8 @@ This is a full-stack Notes Management Application that allows users to register,
 - `POST /notes/` - Create a new note
 - `DELETE /notes/:id/` - Delete a note
 
-## Project Structure
-```
-notes-app/
-│-- backend/
-│   │-- manage.py
-│   │-- notes_app/
-│   │   │-- models.py
-│   │   │-- views.py
-│   │   │-- serializers.py
-│   │   │-- urls.py
-│   │-- db.sqlite3 (or PostgreSQL)
-│
-│-- frontend/
-│   │-- src/
-│   │   │-- pages/
-│   │   │-- components/
-│   │   │-- App.js
-│   │   │-- index.js
-│
-│-- README.md
-```
-
 ## Usage
 1. Register a new user.
 2. Log in to receive an authentication token.
 3. Use the app to create, view, and delete personal notes.
-
-## License
-This project is licensed under the MIT License.
 
