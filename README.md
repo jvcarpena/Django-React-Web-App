@@ -1,4 +1,4 @@
-# Notes Management App
+# Notes Management App (Django and React.js)
 
 ## Overview
 This is a full-stack Notes Management Application that allows users to register, log in, create notes, and delete their own notes. The backend is built using Django REST Framework (DRF), while the frontend is developed with React.js.
